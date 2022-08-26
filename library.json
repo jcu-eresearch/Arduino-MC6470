@@ -1,0 +1,33 @@
+{
+  "name": "Arduino-MC6470",
+  "version": "0.0.1",
+  "description": "An Arduino library for the mCube MC6470 6-axis eCompass",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcu-eresearch/Arduino-MC6470.git"
+  },
+  "keywords": [
+    "flash"
+  ],
+  "authors": [
+    {
+      "name": "NigelB"
+    }
+  ],
+  "frameworks": [
+    "arduino"
+  ],
+  "dependencies": {
+    "c-MC6470": "1.0.0",
+    "Wire": "^2.0.0"
+
+  },
+  "license": "GPL-3.0",
+  "build": {
+    "libArchive": true,
+    "srcFilter": [
+      "+<*.cpp>",
+      "+<*.h>"
+    ]
+  }
+}
